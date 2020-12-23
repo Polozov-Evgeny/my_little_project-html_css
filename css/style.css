@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400px;
+  background: linear-gradient(0deg, rgba(255, 218, 230, 1) 10%, rgba(178, 232, 247, 1) 90%);
+}
+
+
+/* ---header--- */
+.header {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: rgba(248, 249, 250, 0.8) !important;
+  border-bottom: 1px solid rgb(122, 139, 156);
+}
+
+.mynav-brand {
+  color: black;
+  display: flex;
+}
+
+.name_logo {
+  color: rgb(0, 99, 138);
+  font-family: 'Pattaya', sans-serif;
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+#navbarCollapse {
+  font-weight: bold;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: rgb(210, 220, 230);
+}
+
+.btn-link {
+  border: black;
+}
+
+.form-inline {
+  flex-wrap: nowrap;
+}
+
+.form-control {
+  width: 155px !important;
+}
+
+.carousel-inner img {
+  background-size: cover;
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.carousel-indicators {
+  padding-bottom: 8vh;
+}
+
+h1,
+h2 {
+  font-family: 'Pattaya', sans-serif;
+  font-weight: 700;
+  color: rgb(0, 99, 138);
+  font-size: 3rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  padding-bottom: 1vh;
+}
+
+.carousel-caption p {
+  font-family: 'Alice', serif;
+  font-weight: 600;
+  color: black;
+  font-size: 1.5rem !important;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 12vh !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-indicators li {
+  background-color: rgb(44, 44, 44);
+  height: 5px;
+}
+
+hr {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border-top: 1px solid rgba(0, 99, 138, 0.5);
+}
+
+
+/* ---content1--- */
+.content1 .row {
+  margin-top: 5vh;
+}
+
+h3 {
+  font-family: 'Pattaya', sans-serif;
+  font-weight: 400;
+  color: rgb(0, 99, 138);
+  font-size: 2.2rem;
+  margin: 0;
+  padding-bottom: 3vh;
+}
+
+.card {
+  background-color: rgb(248, 238, 241, 0.7);
+}
+
+.card img {
+  transition: transform 0.8s;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  box-shadow: 0 0 10px;
+}
+
+.card-footer .btn {
+  box-shadow: 0 0 3px 3px rgba(0, 99, 138, 0.7);
+}
+
+
+/* ---content2--- */
+.video_world {
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+/* ---content3--- */
+
+
+/* ---content4--- */
+.icon_travel {
+  margin-bottom: 2vh;
+}
+
+.woman img,
+.man img {
+  height: 60vh;
+  /* padding: 2vh 0 2vh 0; */
+}
+
+h4 {
+  font-family: 'Alice', serif;
+  font-weight: 500;
+  color: rgb(0, 99, 138);
+  font-size: 1.5rem;
+  margin: 0;
+  padding-bottom: 3vh;
+  text-decoration: none;
+}
+
+.icon1 a,
+.icon2 a {
+  text-decoration: none;
+}
+
+h4:hover {
+  color: #eb7b12;
+}
+
+.icon1 img {
+  height: 15vh;
+  box-shadow: 0 0 5px 3px rgba(0, 99, 138, 0.7);
+}
+
+.icon2 img {
+  height: 15vh;
+  box-shadow: 0 0 5px 3px rgba(0, 99, 138, 0.7);
+}
+
+.icon1 img:hover,
+.icon2 img:hover {
+  background-color: rgba(237, 124, 18, 0.2);
+}
+
+.frame img {
+  width: 100%;
+}
+
+
+/* ---footer--- */
+.footer {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #eb7b12;
+}
+
+.footer p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.logo_footer {
+  display: flex;
+}
+
+.logo_footer img {
+  width: 100px !important;
+}
+
+.logo_footer h3 {
+  padding: 12px 0 0 5px;
+}
+
+.call a,
+.mail a {
+  color: rgb(0, 99, 138);
+  font-size: 1rem;
+  text-decoration: none;
+  padding-bottom: 0px;
+}
+
+.call a:hover,
+.mail a:hover {
+  color: #eb7b12;
+}
+
+.social img {
+  width: 40px;
+  margin-right: 7px;
+}
+
+.social img:hover {
+  opacity: 0.6;
+}
+
+
+/* ---media--- */
+
+@media (max-width: 992px) {
+  .header {
+    height: 100%;
+  }
+
+  .carousel-inner img {
+    height: 100%;
+    width: 100%;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.0rem !important;
+    margin-bottom: 6vh !important;
+  }
+
+  .carousel-indicators {
+    padding-bottom: 5vh;
+  }
+
+  .woman img,
+  .man img {
+    height: 30vh;
+    margin-bottom: 2vh;
+}
+
+.icon1 img {
+  height: 22vh;
+}
+
+.icon2 img {
+  height: 22vh;
+}
+
+.logo_footer img {
+  width: 150px !important;
+}
+
+.logo_footer {
+  justify-content: center !important;
+  margin-bottom: 2vh;
+}
+
+.callmail {
+  margin-bottom: 2vh;
+}
+
+.socialbig {
+  text-align: center !important;
+  margin-bottom: 2vh;
+}
+
+.social img {
+  width: 60px;
+  margin-right: 20px;
+}
+}
